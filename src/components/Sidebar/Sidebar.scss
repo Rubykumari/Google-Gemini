@@ -1,0 +1,64 @@
+.sidebar {
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f0f9f4;
+    padding: 25px 15px;
+
+    img {
+        width: 20px;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .newChat {
+        margin-top: 50px;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 15px;
+        background: #e6eaf1;
+        border-radius: 50px;
+        font-size: 14px;
+        color: grey;
+        cursor: pointer;
+    }
+
+    .recent {
+
+        .recenTitle {
+            margin: 30px 0 20px;
+        }
+    }
+}
+
+.recent,
+.bottom {
+    display: flex;
+    flex-direction: column;
+
+    .bottomItem {
+        padding-right: 10px;
+        cursor: pointer;
+    }
+}
+
+.recentEntry {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+
+    &:hover {
+        background: #e2e6eb;
+    }
+}
