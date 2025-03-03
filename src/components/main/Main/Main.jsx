@@ -21,15 +21,29 @@ const Main = () => {
                     <div className="card">
                         <p>Briefly summarize this concept: urban planning</p>
                         <img src={assets.bulb_icon} alt="" />
-                    </div>                
+                    </div>
                     <div className="card">
                         <p>Brainstorm team bonding activities for our work retreat</p>
                         <img src={assets.message_icon} alt="" />
-                    </div>                
+                    </div>
                     <div className="card">
                         <p>Improve the readability of the following code</p>
                         <img src={assets.code_icon} alt="" />
                     </div>
+                </div>
+                <div className="mainBottom">
+                    <div className="searchBox">
+                        <input type="text" placeholder='Enter a prompt here' />
+                        <div>
+                            <img src={assets.gallery_icon} alt="" />
+                            <img src={assets.mic_icon} alt="" />
+                            <img src={assets.send_icon} alt="" />
+
+                        </div>
+                    </div>
+                    <p className="info">
+                        Gemini may display inaccurate info, including about people, so double check its responses. Your privacy & Gemini Apps
+                    </p>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ export const Sidebar = () => {
                 }
 
             </div>
-            <div className="bottom">
+            <div className="sidebarBottom">
                 <div className="bottomItem recentEntry">
                     <img src={assets.question_icon} alt="" />
                     {extended?<p>Help</p>:null}
